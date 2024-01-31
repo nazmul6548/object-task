@@ -21,10 +21,10 @@ isStudent: true
 
 for (let property in myObject) {
     let value = myObject[property];
-    // console.log(value);
+    console.log(value);
     let type = typeof value;
     // console.log(type);
-    console.log(`keys : ${property} | type : ${type}`);
+    // console.log(`keys : ${property} | type : ${type}`);
     
 }
 // console.log(typeof myObject.name);
