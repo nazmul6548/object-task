@@ -15,6 +15,7 @@ let student = {
     age: 21,
     city: 'Gaibandha',
     isStudent: true
+    
 }
 let numberOfProperty =Object.keys(student).length;
 console.log(numberOfProperty);
