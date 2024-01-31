@@ -1,17 +1,18 @@
 // Task-5:
 // Capitalize Every first Letter of each word in a String
-let myText = "amar desh bangladesh ami amar desh k valobasi"
-let splits = myText.split(" ");
-let store = [];
 
-for (let i = 0; i < splits.length; i++) {
-    let words = splits[i];
-    let store = words.charAt(0).toUpperCase() + words.slice(1);
-    // splits.push(store);
-    console.log(store);
+let myTexts = "amar desh bangladesh ami amar desh k valobashi"
+let splitKorbo = myTexts.split(" ")
+// console.log(splitKorbo);
+let myStoreRoom = [];
+
+for (let i = 0; i < splitKorbo.length; i++) {
+let myVariable = splitKorbo[i];
+let capitalizedWord =myVariable.charAt(0).toUpperCase() + myVariable.slice(1);
+myStoreRoom.push(capitalizedWord)
+// console.log(myStoreRoom);
     
     
 }
-let result = store.join(" ");
-console.log(result);
-
+let myResult = myStoreRoom.join(' ');
+console.log(myResult);
